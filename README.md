@@ -1,3 +1,4 @@
+2026.02.24 15:13 Анализ пустой базы. Поиск заполнителей. 
 2026.02.24 07:49 Уход в Docker. В организацию yaml файла. И все фишки.
 2026.02.24 07:33 https://nickjanetakis.com/blog/docker-tip-82-using-yaml-anchors-and-x-properties-in-docker-compose 
 				 Анализ x

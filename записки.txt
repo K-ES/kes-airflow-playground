@@ -1,0 +1,4 @@
+# выгрузить полный yaml который получается на выходе
+docker compose config > docker-compose.full.yaml
+
+

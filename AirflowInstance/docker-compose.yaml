@@ -102,7 +102,7 @@ services:
     restart: always
 
   redis:
-    image: redis:latest
+    image: redis:7.2-bookworm
     expose:
       - 6379
     healthcheck:

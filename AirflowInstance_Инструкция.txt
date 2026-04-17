@@ -18,3 +18,8 @@ apt update
 
 apt install -y nano
 так  устанавливать нано следующей командой 
+
+При переходе на 2.6.3 необходимо выполнить это
+docker-compose down -v
+docker-compose pull
+docker-compose up -d

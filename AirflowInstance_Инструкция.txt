@@ -4,3 +4,17 @@
 3. Создаем файл .env
 4. Вносим в него переменную AIRFLOW_UID=50000
 5. Запускаем в отдельном окне docker-compose up -d
+
+
+docker exec -it <имя_контейнера> bash
+Так мы заходим в любой контейнер 
+
+
+docker exec -it --user root airflowinstance-airflow-scheduler-1 bash
+так можно зайти под рутом, чтобы установить nano
+
+apt update 
+апдейт для нано
+
+apt install -y nano
+так  устанавливать нано следующей командой 

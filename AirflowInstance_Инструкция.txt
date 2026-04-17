@@ -1,5 +1,6 @@
 1. Создать директорию инстанса AirflowInstance
 2. Поместить в нее docker-compose
    https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#fetching-docker-compose-yaml
-
-
+3. Создаем файл .env
+4. Вносим в него переменную AIRFLOW_UID=50000
+5. Запускаем в отдельном окне docker-compose up -d

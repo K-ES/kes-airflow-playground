@@ -1,1 +1,6 @@
-/AirflowInstance
+/AirflowInstance/dags/__pycache__/
+/AirflowInstance/dags/.idea/
+/AirflowInstance/logs/
+/AirflowInstance/config/
+
+

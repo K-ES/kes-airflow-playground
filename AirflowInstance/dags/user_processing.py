@@ -27,7 +27,7 @@ with DAG(
     'user_processing',
     start_date=datetime(2023, 1, 1),
     schedule_interval='@daily',        # было schedule_interval
-    catchup=False             # было cathup
+    catchup=False             # было catchup
 ) as dag:
 
     create_table = PostgresOperator(

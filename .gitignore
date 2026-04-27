@@ -1,5 +1,6 @@
 /AirflowInstance/dags/__pycache__/
 /AirflowInstance/dags/.idea/
+/AirflowInstance/dags/.venv/
 /AirflowInstance/logs/
 /AirflowInstance/config/
 

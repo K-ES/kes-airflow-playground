@@ -1,24 +1,10 @@
 from airflow import DAG
 from datetime import datetime
-from airflow.providers.postgres.operators.postgres import PostgresOperator
 
 with DAG(
-    'user_processing',
+    dag_id="test_dag",
     start_date=datetime(2023, 1, 1),
-    schedule_interval='@daily',
+    schedule_interval=None,
     catchup=False
-) as dag:
-
-    create_table = PostgresOperator(
-        task_id='create_table',
-        postgres_conn_id='postgres',
-        sql='''
-        CREATE TABLE IF NOT EXISTS users(
-            firstname TEXT NOT NULL, 
-            country TEXT NOT NULL,
-            username TEXT NOT NULL,
-            password TEXT NOT NULL,
-            email TEXT NOT NULL
-        );
-        '''
-    )
+):
+    pass
